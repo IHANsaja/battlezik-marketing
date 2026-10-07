@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "battlezik-choir",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": ["run", "--cwd", "battlezik-choir/app", "dev"],
+      "port": 5173
+    }
+  ]
+}

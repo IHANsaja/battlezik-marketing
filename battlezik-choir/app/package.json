@@ -1,0 +1,25 @@
+{
+  "name": "battlezik-choir",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/opentype.js": "^1.3.10",
+    "@types/three": "^0.186.0",
+    "vite": "^8.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "opentype.js": "^2.0.0",
+    "three": "^0.186.0"
+  },
+  "scripts": {
+    "dev": "vite --port 5173",
+    "check": "tsc --noEmit -p .",
+    "render:draft": "bun scripts/render.ts video --samples 4 --preset veryfast --crf 22 --out ../out/battlezik-choir_draft.mp4",
+    "render": "bun scripts/render.ts video --samples auto --min-samples 4 --max-samples 12 --shutter 0.5 --crf 17 --out ../out/battlezik-choir.mp4"
+  }
+}

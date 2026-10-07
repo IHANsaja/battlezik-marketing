@@ -1,0 +1,26 @@
+# dependencies (bun install)
+node_modules/
+.vite/
+
+# renders and test stills (regenerable)
+out/
+
+# the starter kit as delivered: someone else's product, 100 MB, reference only
+Motion_as_kit/
+
+# analysis intermediates
+__pycache__/
+analysis/.venv/
+analysis/.cache/
+analysis/work/
+
+# personal Claude settings
+.claude/settings.local.json
+
+# secrets, OS and editor files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+*.tsbuildinfo

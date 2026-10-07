@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun *)",
+      "Bash(bunx *)",
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(python analysis/*)",
+      "Bash(bash scripts/render-parts.sh *)",
+      "Read(//d/Projects/Battlezik/**)"
+    ],
+    "deny": [
+      "Edit(//d/Projects/Battlezik/**)",
+      "Read(//d/Projects/Battlezik/.env*)"
+    ]
+  }
+}
