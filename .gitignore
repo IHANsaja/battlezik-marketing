@@ -24,3 +24,6 @@ analysis/work/
 Thumbs.db
 .idea/
 *.tsbuildinfo
+
+# separated audio stems (large, regenerable)
+stems/
